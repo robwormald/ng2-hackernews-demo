@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "bin",
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "lib": [
+          "es2015",
+          "dom"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "lib"
+    ],
+    "angularCompilerOptions": {
+      "entryModule": "./src/app/app.module#AppModule",
+      "genDir": "./src/ngfactory",
+      "debug":false
+    }
+}

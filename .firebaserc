@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "release": "ng2-hn-demo",
+    "default": "ng2-hn-demo"
+  }
+}

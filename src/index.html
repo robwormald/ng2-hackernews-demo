@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <base href="">
+  <style>
+    body.loading #splash {
+      opacity: 1;
+    }
+    #splash {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transition: opacity 300ms cubic-bezier(0,0,0.2,1);
+      opacity: 0;
+      will-change: opacity;
+      z-index: 1;
+      background-color: #E53935;
+    }
+  </style>
+
+</head>
+<body class="loading">
+  <hn-app></hn-app>
+  <link rel="stylesheet" href="release/app.css">
+  <link rel="stylesheet" href="release/themes/deeppurple-amber.css">
+
+  <script src="hn-app.js" async></script>
+</body>
+</html>

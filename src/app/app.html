@@ -1,0 +1,18 @@
+<div class="header">
+	<div class="inner">
+		<a [routerLink]="['']">
+			<img class="logo" src="./assets/logo.png" alt="logo">
+		</a>
+
+		<a [routerLink]="['top']">Home</a>
+		<a [routerLink]="['top']">Top</a>
+    <a [routerLink]="['best']">Best</a>
+    <a [routerLink]="['new']">New</a>
+		<a class="github" href="https://github.com/vuejs/vue-hackernews-2.0" target="_blank">
+          Built with Angular2
+        </a>
+	</div>
+</div>
+<div class="view">
+	<router-outlet></router-outlet>
+</div>
