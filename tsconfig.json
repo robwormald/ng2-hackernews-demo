@@ -14,12 +14,12 @@
           "dom"
         ]
     },
-    "exclude": [
-        "node_modules",
-        "lib"
+    "include": [
+      "src/**/*.ts"
     ],
     "angularCompilerOptions": {
       "entryModule": "./src/app/app.module#AppModule",
-      "genDir": "./src/ngfactory"
+      "genDir": "./src/ngfactory",
+      "debug":false
     }
 }
